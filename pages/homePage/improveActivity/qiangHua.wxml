@@ -1,0 +1,36 @@
+<!--pages/homePage/improveActivity/qiangHua.wxml-->
+<view class="card">
+    <view class="card-half" bindtap="qhWeapon">
+        <view class="top">
+            <image class="image-icon" src="/images/sword_qh.png"></image>
+            <image class="image-operation" src="/images/rest_content.png"></image>
+        </view>
+        <view class="bottom">
+            <view class="bottom-text">
+                <view class="bottom-text-left">强化+{{value}}</view>
+                <view>
+                    <view class="bottom-text-right">最高:{{topValue}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="card-half">
+        <view class="top">
+            <image class="image-icon" src="/images/sword_zf.png"></image>
+            <image class="image-operation" src="/images/rest_content.png"></image>
+        </view>
+        <view class="bottom">
+            <view class="bottom-text">
+                <text class="bottom-text-left">增幅</text>
+                <text class="bottom-text-right"></text>
+            </view>
+        </view>
+    </view>
+</view>
+
+<slot name="test1"></slot>
+<view>我今年{{student.age}}岁</view>
+<view>能显示吗？我传入的值：{{myBehaviorProperties}}</view>
+
+

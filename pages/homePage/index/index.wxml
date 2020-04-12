@@ -1,0 +1,11 @@
+<!--pages/homePage/index/index.wxml-->
+<view>
+    <QiangHua bindqxWeapon="onQxWeapon" student="{{student}}" myBehaviorProperties="我是要传入组件的properties(优先级最高)">
+        <view slot="test1">我是{{student.name}}</view>
+    </QiangHua>
+</view>
+
+
+
+
+

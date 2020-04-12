@@ -1,0 +1,55 @@
+/* pages/homePage/improveActivity/qiangHua.wxss */
+
+.card{
+  display:flex;
+  margin: 32rpx 0rpx 32rpx 32rpx;
+}
+
+.card-half{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32rpx;
+  background-color: #6693A6;
+  border-radius: 16rpx;
+  width: 327rpx;
+
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.image-icon {
+  width: 64rpx;
+  height: 64rpx;
+  margin: 20rpx;
+}
+
+.image-operation{
+  width: 64rpx;
+  height: 64rpx;
+  margin: 20rpx;
+
+}
+
+.bottom{
+  margin: 20rpx;
+
+}
+
+.bottom-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-text-left{
+  font-size: 40rpx;
+  color: gold;
+  font-weight: 700;
+}
+.bottom-text-right{
+  line-height: 52rpx;
+  color: white;
+}

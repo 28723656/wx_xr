@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/homePage/index/index",
+    "pages/my/index/index",
+    "pages/news/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "美丽新世界",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#808080",
+    "selectedColor":"#008000",
+    "backgroundColor":"#fff",
+    "list":[
+      {
+        "pagePath":"pages/homePage/index/index",
+        "text":"首页",
+        "iconPath":"images/homepage.png",
+        "selectedIconPath":"images/homepage_selected.png"
+      },
+      {
+        "pagePath":"pages/news/index/index",
+        "text":"动态",
+        "iconPath":"images/news.png",
+        "selectedIconPath":"images/news_selected.png"
+      },
+      {
+        "pagePath":"pages/my/index/index",
+        "text":"我的",
+        "iconPath":"images/user.png",
+        "selectedIconPath":"images/user_selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
